@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ site.description }}">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+
+    <nav>
+      <a href="{{ site.baseurl }}/"><img src="/images/smorgasboredlogo.png" alt="logo"></a>
+    </nav>
+
+    <header>
+      <div class="header-container">
+            
+            <!--MENU BARS-->
+            <a href="#" class="menu-link">
+              <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </a>
+
+            <nav id="menu" role="navigation">
+              <ul>
+                  <li><a data-scroll href="{{ site.baseurl }}/">Home</a></li>
+                  <li><a data-scroll href="{{ site.baseurl }}/about">About</a></li>
+                  <li><a href="{{ site.baseurl }}/network">Network</a></li>
+                  <li><a data-scroll href="{{ site.baseurl }}/contributors">Contributors</a></li>
+                  <li><a data-scroll href="{{ site.baseurl }}/join">Join Smorgasbored</a></li>
+                  <li><a href="{{ site.baseurl }}/terms">Terms and Privacy</a></li>
+                </ul>
+            </nav>
+            
+        </div><!--END header-container-->
+    </header> 
+
+    <div id="postmain" role="main" class="wrapper clearfix">
+      {{ content }}
+    </div>
+    <div class="space"></div>
+
+    
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js'></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="masonry.pkgd.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+    $(document).ready(function(){
+var container = document.querySelector('#container');
+        var msnry = new Masonry( container, {
+          // options
+          columnWidth: 0,
+          itemSelector: '.item'
+        });
+    });
+        
+    </script>
+
+    {% include analytics.html %}
+  </body>
+</html>

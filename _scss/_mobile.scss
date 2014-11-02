@@ -1,0 +1,143 @@
+@media screen and (max-width: 768px) {
+/*=========================================================
+              contributors styles
+=========================================================*/
+.contributors{
+  text-align: center;
+  width:80%;
+  margin:0 auto;
+  margin-top:150px;
+  h2{
+    font-size:1.7em;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    margin-bottom:40px;
+  }
+  .person{
+    width:25%;
+    padding:10px;
+    float:left;
+    text-align: center;
+    a{
+    	img{
+    		width:20%;
+    		height:auto;
+    	}
+    }
+    h4{
+      font-size:1em;
+      margin-bottom:0;
+      margin-top:10px;
+    }
+    p{
+      font-weight:100;
+      font-family:'Lato', sans-serif;
+      padding-bottom:20px;
+    }
+  }
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+#container{
+	width:100%;
+}
+/*=========================================================
+              grid styles
+=========================================================*/
+.item{
+  width:100%;
+  display:block;
+  margin-bottom:10px;
+ }
+/*=========================================================
+              navigation styles
+=========================================================*/
+ a.menu-link {
+  position:fixed;
+  top:30px;
+  left:10px;
+}
+nav[role=navigation] {
+  position:fixed;
+  width:600px;
+  text-align: left;
+  height:100%;
+  left:-100%;
+  top:100px;
+  background:white;
+}
+nav[role=navigation].active {
+	left:20px;
+}
+nav[role=navigation] ul {
+  background:white;
+}
+/*=========================================================
+              post styles
+=========================================================*/
+.post h1{
+	font-size:1em;
+	top:20px;
+}
+.info{
+	text-align: center;
+	.left{
+		width:100%;
+	}
+	.right{
+		width:100%;
+		text-align: center;
+		padding-bottom:20px;
+	}
+}
+/*=========================================================
+              about styles
+=========================================================*/
+.about{
+	width:90%;
+	padding-top:130px;
+}
+.faq, .about-people{
+	width:100%;
+}
+/*=========================================================
+              contributors styles
+=========================================================*/
+.contributors .person{
+	width:100%;
+	margin:0;
+	margin-bottom:10px;
+}
+/*=========================================================
+              network styles
+=========================================================*/
+.mobile-notice{
+	position:fixed;
+	height:100%;
+	width:100%;
+	left:0;
+	top:0;
+	background:white;
+	opacity:1;
+	display:inline-block;
+	z-index:10;
+	p{
+		padding-top:150px;
+	}
+}
+}
+
+
+
+
+
+
+
+
+

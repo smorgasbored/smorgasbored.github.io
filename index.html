@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div id="container">
+{% for post in site.posts %}
+{% if post.size == "feature" %}
+	<a href="{{ post.url }}">
+		<div class="item feature clearfix">
+				{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+			<div class="item-detail">
+				<p>{{ post.title }}</p>
+				<p id="name">{{ post.people }}</p>
+			</div>
+		</div>
+	</a>
+{% else %}
+	<a href="{{ post.url }}">
+		<div class="item clearfix">
+				{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+			<div class="item-detail">
+				<p>{{ post.title }}</p>
+				<p id="name">{{ post.people }}</p>
+			</div>
+		</div>
+	</a>
+{% endif %}
+{% endfor %}
+</div>

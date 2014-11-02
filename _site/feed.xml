@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smorgasbored</title>
+    <description>A network of creatives</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Samyoul Kim Photography</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../images/Samyoul/1.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;info&quot;&gt;
+	&lt;div class=&quot;left&quot;&gt;
+		&lt;h2&gt;Samyoul Kim&lt;/h2&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;right&quot;&gt;
+		&lt;h2&gt;Photography&lt;/h2&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;../images/Samyoul/2.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/Samyoul/3.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/Samyoul/4.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/Samyoul/5.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;space&quot;&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sun, 12 Oct 2014 00:00:00 -0700</pubDate>
+        <link>/samyoul/</link>
+        <guid isPermaLink="true">/samyoul/</guid>
+      </item>
+    
+      <item>
+        <title>Illustration</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../images/glohan/fish.jpg&quot; id=&quot;postimg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;info&quot;&gt;
+	&lt;div class=&quot;left&quot;&gt;
+		&lt;h2&gt;Gloria Han&lt;/h2&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;right&quot;&gt;
+		&lt;h2&gt;Illustrations&lt;/h2&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/glohan/man.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/glohan/mancolor.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/glohan/watercolor.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/glohan/confusion.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;space&quot;&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sun, 12 Oct 2014 00:00:00 -0700</pubDate>
+        <link>/glohan/</link>
+        <guid isPermaLink="true">/glohan/</guid>
+      </item>
+    
+      <item>
+        <title>HoPark Collaboration</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../images/hopark/hoparkcollab1.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;info&quot;&gt;
+	&lt;div class=&quot;left&quot;&gt;
+		&lt;h2&gt;Esther Park and Rebekah Ho&lt;/h2&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;right&quot;&gt;
+		&lt;h2&gt;Photography and Type&lt;/h2&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;../images/hopark/hoparkcollab2.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/hopark/hoparkcollab4.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;space&quot;&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 10 Oct 2014 00:00:00 -0700</pubDate>
+        <link>/hopark/</link>
+        <guid isPermaLink="true">/hopark/</guid>
+      </item>
+    
+      <item>
+        <title>Circular Foods</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../images/circlefood/foodbanner.jpg&quot; id=&quot;postimg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;info&quot;&gt;
+	&lt;div class=&quot;left&quot;&gt;
+		&lt;h2&gt;Esther Park&lt;/h2&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;right&quot;&gt;
+		&lt;h2&gt;Circular food illustrations&lt;/h2&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/circlefood/burger.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/circlefood/pie.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/circlefood/sushi.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/circlefood/donut.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/circlefood/pizza.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../images/circlefood/cookie.png&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;space&quot;&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 10 Oct 2014 00:00:00 -0700</pubDate>
+        <link>/circle/</link>
+        <guid isPermaLink="true">/circle/</guid>
+      </item>
+    
+  </channel>
+</rss>

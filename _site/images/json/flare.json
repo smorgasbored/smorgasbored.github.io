@@ -1,0 +1,19 @@
+{
+  "name": "Smorgasbored",
+  "children": [
+    {
+      "name": "Daniel",
+      "children": [
+        {"name": "Gloria"},
+        {"name": "Samyoul"}
+      ]
+    },
+    {
+      "name": "Esther",
+      "children":[
+        {"name": "Rebekah"},
+        {"name": "Sam"}
+      ]
+    }
+  ]
+}

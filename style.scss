@@ -1,0 +1,500 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "_reset";
+@import "_variables";
+@import "_nav";
+@import "_animate";
+// Syntax highlighting @import is at the bottom of this file
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "_highlights";
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+	background: white;
+  font-family: 'Montserrat', sans-serif;
+  color: $darkGray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $helveticaNeue;
+  color: $darkerGray;
+  font-weight: bold;
+  
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+  
+h1 {  
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
+}
+
+h2 {  
+  font-size: 24px;
+}
+
+h3 {  
+  font-size: 20px;
+}
+
+h4 {  
+  font-size: 18px;
+  color: $gray;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+.date {
+  font-style: italic;
+  color: $gray;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+p{
+  margin:0;
+}
+.space{
+  width:100%;
+  height:200px;
+}
+
+/*=========================================================
+              navigation styles
+=========================================================*/
+nav{
+  width:100%;
+  position:fixed;
+  left:0;
+  top:30px;
+  text-align: center;
+  z-index:99;
+  img{
+    width:200px;
+    height:auto;
+    margin:0 auto;
+    opacity:0.8;
+  }
+}
+/*=========================================================
+              wrapper styles
+=========================================================*/
+.wrapper{
+  margin-top:100px;
+  width:70%;
+  margin:0 auto;
+}
+#postmain{
+  margin-top:150px;
+}
+#postmain a{
+  margin:0;
+  width:100%;
+  float:left;
+  margin-bottom:-2px;
+}
+/*=========================================================
+              about styles
+=========================================================*/
+#sub-nav{
+  position:fixed;
+  right:0;
+  bottom:0;
+  min-height:10px;
+  width: 100%;
+  background:rgb(52, 52, 52);
+  z-index:99;
+  h2{
+    display:inline-block;
+    padding:10px;
+    font:'helveticaNeue', sans-serif;
+    color:white;
+    font-size:1em;
+    font-weight:100;
+    letter-spacing: 2px;
+
+  }
+}
+/*=========================================================
+              grid styles
+=========================================================*/
+.item{
+  width:49.9%;
+  float:left;
+  margin-bottom:-3px;
+  img{
+    transition:all 0.3s cubic-bezier(0.645, 0.045, 0.095, 1.08);
+    transform: translate3d(0px, 0px, 0px) rotateX(0deg);
+    transform-origin: 0% 100%;
+    -moz-transition:all 0.3s cubic-bezier(0.645, 0.045, 0.095, 1.08);
+    -moz-transform: translate3d(0px, 0px, 0px) rotateX(0deg);
+    -moz-transform-origin: 0% 100%;
+    -webkit-transition:all 0.3s cubic-bezier(0.645, 0.045, 0.095, 1.08);
+    -webkit-transform: translate3d(0px, 0px, 0px) rotateX(0deg);
+    -webkit-transform-origin: 0% 100%;
+  }
+  .item-detail{
+    position:absolute;
+    top:0;
+    left:0;
+    text-align: center;
+    height:100%;
+    width:100%;
+    background:rgb(52, 52, 52);
+    backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+    color:white;
+
+    transition:all 0.3s cubic-bezier(0.645, 0.045, 0.095, 1.08);
+    transform: translate3d(0px, 0px, 0px) rotateX(-120deg);
+    transform-origin: 50% 0%;
+    -moz-transition:all 0.3s cubic-bezier(0.645, 0.045, 0.095, 1.08);
+    -moz-transform: translate3d(0px, 0px, 0px) rotateX(-120deg);
+    -moz-transform-origin: 50% 0%;
+    -webkit-transition:all 0.3s cubic-bezier(0.645, 0.045, 0.095, 1.08);
+    -webkit-transform: translate3d(0px, 0px, 0px) rotateX(-120deg);
+    -webkit-transform-origin: 50% 0%;
+    p{
+      padding-top:10%;
+      font-size:1em;
+    }
+  }
+}
+.feature{
+  width:100%;
+}
+.item:hover .item-detail{
+  transform: translate3d(0px, 0px, 0px) rotateX(0deg);
+  -moz-transform: translate3d(0px, 0px, 0px) rotateX(0deg);
+  -webkit-transform: translate3d(0px, 0px, 0px) rotateX(0deg);
+}
+.item:hover img{
+  transform: translate3d(0px, 0px, 0px) rotateX(90deg);
+  -moz-transform: translate3d(0px, 0px, 0px) rotateX(90deg);
+  -webkit-transform: translate3d(0px, 0px, 0px) rotateX(90deg);
+}
+#name{
+  font-weight:100;
+  font-size:1em;
+  padding-top:20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+}
+/*=========================================================
+              post styles
+=========================================================*/
+.post h1{
+  top:100px;
+  font-size:4em;
+  opacity:0.3;
+}
+#post-main{
+  margin-bottom:150px;
+}
+#postimg{
+  width:100%;
+  height:auto;
+}
+.info{
+  background:white;
+  padding:100px 60px;
+  padding-top:50px;
+  font-weight:700;
+  font-size:0.8em;
+  .left{
+    width:50%;
+    float:left;
+  }
+  .right{
+    width:50%;
+    text-align: right;
+    float:right;
+  }
+  h2{
+    font-size:1em;
+  }
+}
+.post-image{
+  visibility:hidden;
+  width:100%;
+  height:auto;
+}
+.half-width{
+  width:50%;
+  height:auto;
+  float:left;
+}
+/*=========================================================
+              about styles
+=========================================================*/
+.about{
+  width:80%;
+  min-height:20px;
+  padding-top:250px;
+  padding-bottom:300px;
+  margin:0 auto;
+  text-align: center;
+}
+.box{
+  background:white;
+  padding:20px;
+  text-align: left;
+}
+#about-intro{
+  width:100%;
+  display:block;
+  font-family:'Lato', sans-serif;
+
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;  
+
+  animation-duration: 1s; 
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);; 
+  -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);;
+  h4{
+    margin:0;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    color:black;
+  }
+  p{
+    font-weight:300;
+    font-size:1.4em;
+    line-height:1.5em;
+    color:#666666;
+  }
+}
+
+.about-people{
+  width:80%;
+  margin-bottom:50px;
+  float:right;
+  visibility:hidden;
+  #daniel, #esther{
+    width:50%;
+    padding:0;
+    color:white;
+    float:right;
+    text-align: center;
+    background:none;
+    display:inline-block;
+    font-family:'Lato', sans-serif;
+    img{
+      width:100%;
+      height:auto;
+    }
+  }
+}
+
+.faq{
+  width:60%;
+
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;  
+
+  animation-duration: 1s; 
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);; 
+  -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);;
+
+  padding:20px;
+  display:block;
+  background:rgb(52,52,52);
+  h4{
+    margin:0;
+    text-transform: uppercase;
+    padding-top:0;
+    padding-bottom:10px;
+    text-align:left;
+    color:white;
+    opacity:0.9;
+    letter-spacing: 1px;
+  }
+  ul{
+    padding:0;
+    list-style: none;
+    color:white;
+    font-weght:100;
+    text-align: left;
+    li{
+      font-family:'Lato', sans-serif;
+      padding-bottom:35px;
+      p{
+        padding-bottom:10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size:1em;
+        font-weight:300;
+        opacity:0.8;
+      }
+      
+    }
+  }
+}
+
+/*=========================================================
+              contributors styles
+=========================================================*/
+.contributors{
+  text-align: center;
+  width:80%;
+  margin:0 auto;
+  margin-top:150px;
+  h2{
+    font-size:1.7em;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    margin-bottom:40px;
+  }
+  .person{
+    width:20%;
+    padding:10px;
+    float:left;
+    text-align: center;
+    h4{
+      font-size:1em;
+      margin-bottom:0;
+      margin-top:10px;
+    }
+    p{
+      font-weight:100;
+      font-family:'Lato', sans-serif;
+      padding-bottom:20px;
+    }
+  }
+}
+
+/*=========================================================
+              join styles
+=========================================================*/
+.join{
+  margin:0 auto;
+  width:70%;
+  text-align: center;
+  padding-top:250px;
+}
+/*=========================================================
+              terms styles
+=========================================================*/
+.terms{
+  margin:0 auto;
+  width:60%;
+  font-family:'Lato', sans-serif;
+  padding-top:200px;
+  p{
+    line-height: 1.2em;
+  }
+}
+/*=========================================================
+              network styles
+=========================================================*/
+.mobile-notice{
+  opacity:0;
+  display:none;
+}
+@import "_mobile";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
