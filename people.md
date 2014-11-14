@@ -5,7 +5,7 @@ permalink: /contributors/
 ---
 
 <div class="contributors">
-	<h2>Team Smorgasbored</h2>
+	<h2>Meet the Contributors</h2>
 
 	<div class="person">
 		<img src="/images/people/dpd.jpg" alt="">
@@ -43,7 +43,7 @@ permalink: /contributors/
 		<p>Illustrator</p>
 		<div class="socialicons">
 			<a href="https://www.facebook.com/GloHanIllustrations" target="_blank"><img src="/images/social/facebook.png" alt=""></a>
-			<a href="http://www.glo-han.portfoliobox.me/" target="_blank"><img src="/images/social/www.png" alt=""></a>
+			<a href="http://gdhan.carbonmade.com/" target="_blank"><img src="/images/social/www.png" alt=""></a>
 		</div>
 	</div>
 
@@ -56,4 +56,25 @@ permalink: /contributors/
 			<a href="http://www.samyoulkim.com/" target="_blank"><img src="/images/social/www.png" alt=""></a>
 		</div>
 	</div>
+
+	<div class="person">
+		<img src="/images/people/yee.jpg" alt="">
+		<h4>Nicholas Yee</h4>
+		<p>Photographer</p>
+		<div class="socialicons">
+			<a href="https://www.facebook.com/SamyoulKimPhotography" target="_blank"><img src="/images/social/facebook.png" alt=""></a>
+			<a href="http://www.samyoulkim.com/" target="_blank"><img src="/images/social/www.png" alt=""></a>
+		</div>
+	</div>
+
+	<div class="person">
+		<img src="/images/people/woo.jpg" alt="">
+		<h4>Woo Chung</h4>
+		<p>Photographer</p>
+		<div class="socialicons">
+			<a href="https://www.facebook.com/SamyoulKimPhotography" target="_blank"><img src="/images/social/facebook.png" alt=""></a>
+			<a href="http://www.samyoulkim.com/" target="_blank"><img src="/images/social/www.png" alt=""></a>
+		</div>
+	</div>
 </div>
+<div class="space"></div>

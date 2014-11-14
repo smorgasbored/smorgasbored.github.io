@@ -61,16 +61,17 @@
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js'></script>
-    <script src="js/smooth-scroll.js"></script>
+    <script src="smooth-scroll.js"></script>
     <script src="masonry.pkgd.min.js"></script>
     <script src="main.js"></script>
     <script>
+
     $(document).ready(function(){
-var container = document.querySelector('#container');
+        var container = document.querySelector('#container');
         var msnry = new Masonry( container, {
           // options
           columnWidth: 0,
-          itemSelector: '.item'
+          itemSelector: '#postmain a'
         });
     });
         

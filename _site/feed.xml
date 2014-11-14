@@ -7,6 +7,63 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Street Fashion</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../images/woochung/1.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;info&quot;&gt;
+	&lt;div class=&quot;left&quot;&gt;
+		&lt;h2&gt;Woo Chung&lt;/h2&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;right&quot;&gt;
+		&lt;h2&gt;Photography&lt;/h2&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;grid&quot;&gt;
+	&lt;img src=&quot;../images/woochung/2.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/woochung/6.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/woochung/3.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/woochung/4.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/woochung/5.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;space&quot;&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 13 Oct 2014 00:00:00 -0700</pubDate>
+        <link>/woo/</link>
+        <guid isPermaLink="true">/woo/</guid>
+      </item>
+    
+      <item>
+        <title>Nic Yee Photogrpahy</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../images/nicyee/8.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;info&quot;&gt;
+	&lt;div class=&quot;left&quot;&gt;
+		&lt;h2&gt;Nicholas Yee&lt;/h2&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;right&quot;&gt;
+		&lt;h2&gt;Photography&lt;/h2&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;grid&quot;&gt;
+	&lt;img src=&quot;../images/nicyee/2.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/nicyee/3.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/nicyee/4.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/nicyee/5.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/nicyee/6.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/nicyee/7.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;space&quot;&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 13 Oct 2014 00:00:00 -0700</pubDate>
+        <link>/nicyee/</link>
+        <guid isPermaLink="true">/nicyee/</guid>
+      </item>
+    
+      <item>
         <title>Samyoul Kim Photography</title>
         <description>&lt;p&gt;&lt;img src=&quot;../images/Samyoul/1.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
@@ -18,10 +75,15 @@
 		&lt;h2&gt;Photography&lt;/h2&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;../images/Samyoul/2.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;../images/Samyoul/3.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;../images/Samyoul/4.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;../images/Samyoul/5.jpg&quot; class=&quot;post-image&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div id=&quot;grid&quot;&gt;
+	&lt;img src=&quot;../images/Samyoul/2.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/Samyoul/3.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/Samyoul/4.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/Samyoul/5.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/Samyoul/5.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;../images/Samyoul/5.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;div class=&quot;space&quot;&gt;&lt;/div&gt;
 </description>
@@ -31,15 +93,15 @@
       </item>
     
       <item>
-        <title>Illustration</title>
-        <description>&lt;p&gt;&lt;img src=&quot;../images/glohan/fish.jpg&quot; id=&quot;postimg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <title>Glo The Sea</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../images/glohan/fish.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;info&quot;&gt;
 	&lt;div class=&quot;left&quot;&gt;
 		&lt;h2&gt;Gloria Han&lt;/h2&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;right&quot;&gt;
-		&lt;h2&gt;Illustrations&lt;/h2&gt;
+		&lt;h2&gt;Glo: The Sea&lt;/h2&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -75,33 +137,6 @@
         <pubDate>Fri, 10 Oct 2014 00:00:00 -0700</pubDate>
         <link>/hopark/</link>
         <guid isPermaLink="true">/hopark/</guid>
-      </item>
-    
-      <item>
-        <title>Circular Foods</title>
-        <description>&lt;p&gt;&lt;img src=&quot;../images/circlefood/foodbanner.jpg&quot; id=&quot;postimg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;info&quot;&gt;
-	&lt;div class=&quot;left&quot;&gt;
-		&lt;h2&gt;Esther Park&lt;/h2&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;right&quot;&gt;
-		&lt;h2&gt;Circular food illustrations&lt;/h2&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;../images/circlefood/burger.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;../images/circlefood/pie.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;../images/circlefood/sushi.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;../images/circlefood/donut.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;../images/circlefood/pizza.jpg&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;../images/circlefood/cookie.png&quot; class=&quot;post-image half-width&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;space&quot;&gt;&lt;/div&gt;
-</description>
-        <pubDate>Fri, 10 Oct 2014 00:00:00 -0700</pubDate>
-        <link>/circle/</link>
-        <guid isPermaLink="true">/circle/</guid>
       </item>
     
   </channel>

@@ -34,7 +34,7 @@ permalink: /about/
 			</li>
 			<li>
 				<p>I uploaded my work and I'm scared of stealing.</p>
-				Not a worry, any content uploaded by you is under the <a href="">Creative Commons License</a> so if anyone were to use your work they must credit you.
+				Unfortunately, that's the world that we live in. If someone does steal your work you have the right to ask them to credit you. 
 			</li>
 		</ul>
 	</div>

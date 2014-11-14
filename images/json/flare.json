@@ -4,8 +4,14 @@
     {
       "name": "Daniel",
       "children": [
-        {"name": "Gloria"},
-        {"name": "Samyoul"}
+        {
+          "name": "Gloria",
+          "children": [
+            {"name": "WooChung"}
+          ]
+        },
+        {"name": "Samyoul"},
+        {"name": "Nicholas"}
       ]
     },
     {

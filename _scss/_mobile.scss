@@ -55,6 +55,10 @@
   display:block;
   margin-bottom:10px;
  }
+ #postmain a{
+  width:100%;
+  margin-bottom:10px;
+ }
 /*=========================================================
               navigation styles
 =========================================================*/
@@ -131,6 +135,31 @@ nav[role=navigation] ul {
 		padding-top:150px;
 	}
 }
+
+.half-width{
+  width:100%;
+  height:auto;
+  float:left;
+  padding:10px;
+}
+#grid {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   
+   -webkit-column-count: 1;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    1;
+   -moz-column-gap:      0px;
+   column-count:         1;
+   column-gap:           0px;
+   
+}
+#grid img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
 }
 
 
