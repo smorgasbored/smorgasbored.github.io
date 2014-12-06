@@ -62,12 +62,12 @@ permalink: /contributors/
 		<h4>Nicholas Yee</h4>
 		<p>Photographer</p>
 		<div class="socialicons">
-			<a href="https://www.facebook.com/SamyoulKimPhotography" target="_blank"><img src="/images/social/facebook.png" alt=""></a>
-			<a href="http://www.samyoulkim.com/" target="_blank"><img src="/images/social/www.png" alt=""></a>
+			<a href="http://nicholasdyee.tumblr.com/" target="_blank"><img src="/images/social/www.png" alt=""></a>
+			<a href="http://instagram.com/nicholasdyee" target="_blank"><img src="/images/social/instagram.png" alt=""></a>
 		</div>
 	</div>
 
-	<div class="person">
+	<!-- <div class="person">
 		<img src="/images/people/woo.jpg" alt="">
 		<h4>Woo Chung</h4>
 		<p>Photographer</p>
@@ -75,6 +75,6 @@ permalink: /contributors/
 			<a href="https://www.facebook.com/SamyoulKimPhotography" target="_blank"><img src="/images/social/facebook.png" alt=""></a>
 			<a href="http://www.samyoulkim.com/" target="_blank"><img src="/images/social/www.png" alt=""></a>
 		</div>
-	</div>
+	</div> -->
 </div>
 <div class="space"></div>
